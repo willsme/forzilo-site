@@ -13,9 +13,13 @@ header.hero {
   text-align: center;
   padding: 20px 0; /* Optional: top and bottom spacing */
 }
+.logo-wrapper {
+  text-align: center;
+  padding: 20px 0;
+}
 .logo {
-  width: 100%;           /* Take full width of its container */
-  max-width: 350px;      /* Never exceed this size */
+  width: 100%;
+  max-width: 350px;
   height: auto;
   display: inline-block;
 }
