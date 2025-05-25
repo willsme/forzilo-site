@@ -15,13 +15,20 @@ header.hero {
 }
 .logo-wrapper {
   text-align: center;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 0;     /* 👈 Reduces gap under logo */
+  margin-bottom: 0;
 }
 .logo {
   width: 100%;
   max-width: 350px;
   height: auto;
   display: inline-block;
+  margin-bottom: 10px;   /* 👈 Controls space under logo */
+}
+/* Optional: Reduce space above heading */
+h1, h2 {
+  margin-top: 10px;
 }
 }
 h1 {
