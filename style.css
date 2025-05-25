@@ -10,8 +10,9 @@ header.hero {
   padding: 4rem 1rem;
   background-color: #101e32;
 .logo {
-  width: 120px;
-  margin-bottom: 1rem;
+  width: 250px;
+  height: auto;
+  display: block;
 }
 }
 h1 {
